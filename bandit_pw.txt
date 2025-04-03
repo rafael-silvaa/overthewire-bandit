@@ -1,0 +1,28 @@
+7 > 8 : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+grep -i 'millionth' data.txt
+
+
+6 > 7 : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+
+
+file is human-readable, 1033 bytes and not executable
+find ./inhere -type f -size 1033c
+seatch for type files of exactly 1033 bytes
+5: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+4: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+file is hiden in ./ folder
+pw 3 > 4: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+
+pw 0 > 1: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+since the file is called "-", in order to use cat and it not think that it's 
+an argument, we must specify the full location: cat ./-
+result: pw 1 > 2 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+file is has spaces, so we use '' to call it
+pw 2 > 3 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
