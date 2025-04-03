@@ -1,5 +1,6 @@
 7 > 8 : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 grep -i 'millionth' data.txt
+to find the password next to the word 'millionth'
 
 
 6 > 7 : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
