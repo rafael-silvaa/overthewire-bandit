@@ -1,3 +1,9 @@
+8 > 9: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+sort data.txt | uniq -u
+uniq -u to find non duplicated lines, but we must sort data.txt first
+because uniq only checks for **consecutive** duplicated lines
+
+
 7 > 8 : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 grep -i 'millionth' data.txt
 to find the password next to the word 'millionth'
