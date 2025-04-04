@@ -1,3 +1,9 @@
+12 > 13: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+took a while to figure this one out but in the end it was pretty simple
+just had to decompress/revert the file until got the password
+used xxd, tar, gzip, bzip2 and file
+
+
 11 > 12 : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 a bit harder, had to rotate the characters by 13 letters, for that i used:
 cat data.txt | tr '[A-Za-z]' 'N-ZA-Mn-za-m]'
