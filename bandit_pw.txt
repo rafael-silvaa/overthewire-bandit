@@ -1,3 +1,12 @@
+10 > 11: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+this one was simple, used base64 -d data.txt
+
+
+9 > 10: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+for this level i used the strings command with grep
+strings to print readable characters and grep to get the ===== before the pw
+
+
 8 > 9: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 sort data.txt | uniq -u
 uniq -u to find non duplicated lines, but we must sort data.txt first
