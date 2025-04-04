@@ -1,3 +1,13 @@
+11 > 12 : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+a bit harder, had to rotate the characters by 13 letters, for that i used:
+cat data.txt | tr '[A-Za-z]' 'N-ZA-Mn-za-m]'
+cat data.txt to display the text alongside with
+tr '[A-Za-z]' '[N-ZA-Mn-za-m]' to translate using all ch from 'A' to 'Z' and
+'a' to 'z' plus decode from 13th letter (n) going from 'N' to end of alphabet
+'Z' continuing with 'A' to 13th - 1 letter 'M' and same for small caps
+'n-za-m' 
+
+
 10 > 11: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 this one was simple, used base64 -d data.txt
 
