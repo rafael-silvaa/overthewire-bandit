@@ -1,3 +1,18 @@
+15 : 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+connected to port 30000 of localhost to obtain password for level 15
+used: nc localhost 30000
+and pasted level 14 password and pw for level 15 was returned
+
+14 : MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+password obtained by accessing etc/bandit_pass/bandit14
+
+
+second password is correct for level 1
+13 > 14 : no password is needed, we had a file with a ssh key to log into 
+the next level bandit14, the line used was:
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+
 12 > 13: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 took a while to figure this one out but in the end it was pretty simple
 just had to decompress/revert the file until got the password
