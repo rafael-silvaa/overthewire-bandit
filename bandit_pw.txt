@@ -1,3 +1,15 @@
+18 > 19 : cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+in this level .bashrc is configured to log us when we try to log in
+with ssh, however we know that the pw is stored in a readme in the 
+homedirectory, so we can just use
+ssh bandit18@bandit.labs.overthewrire.org -p 2220 cat readme
+ans it'll return the pw stored without establishing a connection
+
+
+17 > 18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+pw was the only line modified between pw.old and pw.new so i used diff
+
+
 16 > 17 : sshkey.private
 for this level we had to scan the ports of localhost to find out which port
 was running ssl service, 2 ports were returned, one of which was running the 
