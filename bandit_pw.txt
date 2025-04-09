@@ -1,9 +1,16 @@
+19 > 20 : 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+the password for the next level is stored in /etc/bandit_pass
+but bandit19 is denied access to the file, we have a setuid binary 
+which we can execute with a cat command after to read the file as 
+bandit20, without being that user
+
+
 18 > 19 : cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 in this level .bashrc is configured to log us when we try to log in
 with ssh, however we know that the pw is stored in a readme in the 
 homedirectory, so we can just use
 ssh bandit18@bandit.labs.overthewrire.org -p 2220 cat readme
-ans it'll return the pw stored without establishing a connection
+and it'll return the pw stored without establishing a connection
 
 
 17 > 18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
