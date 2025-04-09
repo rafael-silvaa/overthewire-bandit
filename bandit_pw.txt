@@ -1,3 +1,13 @@
+16 > 17 : sshkey.private
+for this level we had to scan the ports of localhost to find out which port
+was running ssl service, 2 ports were returned, one of which was running the 
+echo service only and the second one is running an unknown service, so
+second one seems to be the right one
+we then just have to connect to that port on localhost and send current pw to
+receive the private ssh key we then connect using:
+ssh -i <file> <user>@<service>
+
+
 15 > 16 : kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 for this level we needed to submit the level 15 password to port 30001 on 
 localhost using SSL/TLS encryption, for that i used:
