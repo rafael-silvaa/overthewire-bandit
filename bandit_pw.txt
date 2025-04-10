@@ -1,3 +1,11 @@
+20 > 21 : EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+for this level i had to connect to my own network daemon with:
+nc -l <port>  => nc -l 12345
+and in another terminal, bandit20 had a setuid binary which we had to use to
+connect to our daemon, and it was waiting for the current level pw to be introduced
+and we received the setuid binary returned the next level pw
+
+
 19 > 20 : 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 the password for the next level is stored in /etc/bandit_pass
 but bandit19 is denied access to the file, we have a setuid binary 
