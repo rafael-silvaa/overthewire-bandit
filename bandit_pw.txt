@@ -1,9 +1,11 @@
 20 > 21 : EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 for this level i had to connect to my own network daemon with:
-nc -l <port>  => nc -l 12345
+nc -l <port>  ==> nc -l 12345
 and in another terminal, bandit20 had a setuid binary which we had to use to
 connect to our daemon, and it was waiting for the current level pw to be introduced
 and we received the setuid binary returned the next level pw
+the command used to connect the setuid binary, was:
+./suconnect <port> ==> ./suconnect 12345
 
 
 19 > 20 : 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
