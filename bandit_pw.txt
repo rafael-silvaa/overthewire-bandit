@@ -1,3 +1,9 @@
+21 > 22 : tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+a program was running regurlarly with cron, i just had to cat the file in
+/etc/cron.d/ and follow where the script was being posted
+once i found, i cat the file and obtained the password
+
+
 20 > 21 : EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 for this level i had to connect to my own network daemon with:
 nc -l <port>  ==> nc -l 12345
