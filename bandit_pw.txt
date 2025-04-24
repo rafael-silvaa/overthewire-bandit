@@ -1,3 +1,13 @@
+steps 23 > 24:
+cat the cron file
+create temp directory
+create script to cat /etc/bandit_pass/bandit24 > /tmp/tmp.adadas/password
+give permissions rwx to files and temp dir
+cp the script to the dir in cron file
+and wait for cat to password
+cat password
+
+
 22 > 23 : 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 once again cro job that we had to follow with mostly cat and ls
 
